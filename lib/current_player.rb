@@ -3,4 +3,5 @@ def turn_count(board)
   board.each do |item|
     counter += (" " == item) ? 0 : 1
   end
+  return counter
 end
